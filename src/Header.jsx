@@ -96,14 +96,14 @@ export default function Header() {
   <Link to="/" className="flex-shrink-0">
   {/* Image for small screens */}
   <img
-    src="/logo-small.svg"
+    src="logo-small.svg"
     alt="Logo"
     className="h-8 max-h-14  object-contain block md:hidden"
   />
 
   {/* Image for md and up */}
   <img
-    src="/logo-20-years.svg"
+    src="logo-20-years.svg"
     alt="Logo"
     className="h-8 max-h-14 object-contain hidden md:block"
   />
@@ -164,7 +164,7 @@ export default function Header() {
   type="submit"
   className="bg-green-600 hover:bg-green-700 px-4 py-2 text-white"
 >
-  <img src="/search.svg" alt="Search" className="w-6 h-6" />
+  <img src="search.svg" alt="Search" className="w-6 h-6" />
 </button>
             </form>
 
@@ -193,14 +193,14 @@ export default function Header() {
   <Link to="/Account">
     <img
       className="w-7 h-7 flex-shrink-0"
-      src="/account.svg"
+      src="account.svg"
       alt="Profile"
     />
   </Link>
   <Link to="/checkout" className="relative">
     <img
       className="w-7 h-7 flex-shrink-0"
-      src="/shopping-cart.svg"
+      src="shopping-cart.svg"
       alt="Cart"
     />
     {totalItems > 0 && (
