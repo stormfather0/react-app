@@ -145,6 +145,9 @@ export default function Products() {
       ) : (
         <div className="flex">
           <Sidebar isStatic={true} />
+<div>This is a React practice project, not a real store. </div>
+
+
 
           <div className="flex-1 flex flex-col px-2">
             {showNotificationMenu && (
