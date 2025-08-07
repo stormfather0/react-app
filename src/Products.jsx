@@ -194,7 +194,7 @@ export default function Products() {
             <div className="mb-2">
               <ImageSlider />
             </div>
-            <div>This is a React practice project, not a real store. </div>
+            
 
             <Link to="#">
               <div className="flex justify-end mr-3 text-sm text-blue-900 mb-2">
